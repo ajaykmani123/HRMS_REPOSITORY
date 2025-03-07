@@ -1,0 +1,17 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="ecommerce_site.seller_app.views.ecommerce_app" />
+          <option value="Project.restapp.serializer.Person" />
+          <option value="Project.restapp.serializer.djangoapp" />
+          <option value="Project.restapp.views.djangoapp" />
+          <option value="Project.restapp.views.Person" />
+          <option value="Project.restapp.views.serializers" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
