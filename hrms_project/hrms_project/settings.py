@@ -23,7 +23,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-0^uf$ncl^q&^-^%$gquf!84c&v%=%a1&j94pww++7g6dwd0z0('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
+DEBUG = False
 
 # ALLOWED_HOSTS = []
 # ALLOWED_HOSTS = ["35.225.224.226", "127.0.0.1"]
@@ -126,11 +127,12 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 # Add the following to make Django aware of your static files directory
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-BASE_DIR / "employee_app/static",  # Path to employee app's static directory
 
-]
+# STATICFILES_DIRS = [
+#     BASE_DIR / "static",
+# BASE_DIR / "employee_app/static",  # Path to employee app's static directory
+#
+# ]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
@@ -178,8 +180,8 @@ DEFAULT_FROM_EMAIL = 'ajaykmani2001@gmail.com'
 
 import os
 
-STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),  # Ensure this exists
-]
+# STATIC_URL = '/static/'
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR, 'static'),  # Ensure this exists
+# ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # For collectstatic
